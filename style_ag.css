@@ -1,0 +1,99 @@
+h1 {
+    font-family: 'DINPro-Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.btn-primary {
+    font-family: 'DINPro-Bold', sans-serif;
+    color: #fff;
+    background-color: #e32526;
+    border-radius: 0;
+ }
+
+ .btn-primary:hover, .btn-primary:focus {
+     background-color: black;
+ }
+
+ .form-control:focus {
+    border-color: #f0711c;
+    box-shadow: 0 0 0 0.2rem rgba(167, 108, 40, 0.25);
+} 
+
+ li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+}
+#ul2  {
+    display:inline;
+}
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* Aleksei's Navbar CSS Overrides */
+
+#bootstrap-overrides .bg-primary {
+    background-color:  black !important;
+    height: 50px !important;
+}
+.navbar-brand{
+padding-left: 30px;
+padding-top: 15px;
+}
+.nav-item {
+font-family: "Din Pro Light";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#navbar .btn {
+background-color: transparent;
+border: 0px solid;
+}
+#navbar .btn:hover {
+background-color: transparent;
+}
+.dropdown-item {
+background-color: red;
+font-size: small;
+opacity: 0.75;
+}
+.btn-brand {
+color: rgb(232, 230, 227);
+background-color: rgb(176, 23, 23);
+border-color: rgb(156, 20, 21);
+border-radius: 2px;
+letter-spacing: 1px;
+display: inline-block;
+font-weight: 400;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+user-select: none;
+border: 1px solid transparent;
+line-height: 1.5;
+opacity: 1;
+}
+.btn-brand:hover {
+background-color: black;
+}
